@@ -1,1 +1,32 @@
 # SPACE_SHOOTER
+
+STEP 1:
+INSTALL SUDO APT INSTALL SFML 
+
+
+STEP2 :
+g++ -c Main.cpp 
+
+
+step 2:
+g++ Main.o -o sfml -lsfml-graphics -lsfml-window -lsfml-system
+
+
+step3:
+./sfml
+
+
+
+
+
+RULES :
+W FOR UP 
+S FOR DOWN 
+A FOR RIGHT 
+D FOR LEFT 
+
+
+20 ENEMIES CAN TOUCH SPACEHSIP   OTHERWISE GAME OVERS 
+
+
+ON ENEMY TOP TWO NUMBERS INDIACTES NUMBER OF BULLETS REQUIRED FOR KILL ENEMY AND MAX SCORE YOU GET
